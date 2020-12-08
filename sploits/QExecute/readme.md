@@ -1,4 +1,4 @@
-Author: @capitanbanana
+Author: [@capitanbanana](https://github.com/capitanbanana)
 
 Сервис состоит из трех частей:
 1. ExecutorService - основной сервис, авторизовывает пользователей, проксирует авторизованные запросы к хранилищу. Хранит данные в 
