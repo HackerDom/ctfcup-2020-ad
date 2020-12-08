@@ -1,3 +1,5 @@
+Author: [@1MiKHalyCH1](https://github.com/1MiKHalyCH1)
+
 # Вулна 1
 
 AuthManager регистрирует пользователя, умножая его куб `priv_cube` на базовый куб, который вращается `F U R U'` какое-то кол-во раз (`priv_key`).
