@@ -8,5 +8,9 @@ Infrastucture admin: [@xelez](https://github.com/xelez)
 "QExecute" service: [@capitanbanana](https://github.com/capitanbanana)  
 Team lead & "ChessBase" service: [@rx00](https://github.com/rx00)  
   
+### Scoreboard
+![img](final_scoreboard.png)  
+
+
 CTF Cup 2020 (A/D part) was held on December 5, 2020.  
 Copyright (C) 2020 [HackerDom](http://hackerdom.ru)
