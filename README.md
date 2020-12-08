@@ -8,7 +8,7 @@ Infrastucture admin: [@xelez](https://github.com/xelez)
 "QExecute" service: [@capitanbanana](https://github.com/capitanbanana)  
 Team lead & "ChessBase" service: [@rx00](https://github.com/rx00)  
   
-### Scoreboard
+### Final scoreboard
 ![img](final_scoreboard.png)  
 
 
