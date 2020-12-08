@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp5.0</TargetFramework>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <RootNamespace>QueenOfHearts.ExecutionService</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\QExecute.CoreLibrary\QExecute.CoreLibrary.csproj" />
+      <ProjectReference Include="..\SelfHostedKestrelServer\SelfHostedKestrelServer.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="SimpleInjector" Version="5.1.0" />
+      <PackageReference Include="Vostok.ClusterClient.Core" Version="0.1.23-pre000222" />
+      <PackageReference Include="Vostok.ClusterClient.Transport.Core21" Version="1.0.0-pre000128" />
+      <PackageReference Include="Vostok.Logging.Console" Version="1.0.5" />
+      <PackageReference Include="Vostok.Logging.File" Version="1.0.11" />
+    </ItemGroup>
+
+  <ItemGroup>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+      <_Parameter1>$(AssemblyName).Tests</_Parameter1>
+    </AssemblyAttribute>
+  </ItemGroup>
+  <ItemGroup>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+      <_Parameter1>$(AssemblyName).Sploit</_Parameter1>
+    </AssemblyAttribute>
+  </ItemGroup>
+  
+</Project>

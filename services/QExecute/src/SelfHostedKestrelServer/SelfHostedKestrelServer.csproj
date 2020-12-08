@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp5.0</TargetFramework>
+        <RootNamespace>HttpServer</RootNamespace>
+        <LangVersion>9</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel" Version="2.2.0" />
+      <PackageReference Include="Microsoft.Extensions.Options" Version="5.0.0-preview.8.20407.11" />
+      <PackageReference Include="Vostok.Commons.Time" Version="0.1.1-pre000027" />
+      <PackageReference Include="Vostok.Logging.Abstractions" Version="1.0.19-pre000141" />
+    </ItemGroup>
+
+</Project>

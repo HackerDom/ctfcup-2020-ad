@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\QExecute.CoreLibrary\QExecute.CoreLibrary.csproj" />
+      <ProjectReference Include="..\QExecute.ExecutionService\QExecute.ExecutionService.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,4 @@
+export_secrets.sh
+.terraform
+*.tfstate
+terraform.tfstate.backup

@@ -1,0 +1,22 @@
+version: "2.2"
+
+services:
+  cubic:
+    image: cubic
+    build: .
+    stop_grace_period: 5s
+    ulimits:
+      nofile:
+        soft: 12000
+        hard: 12000
+    pids_limit: 10000
+    restart: always
+    ports:
+      - 4551:31337
+    links:
+      - db
+
+  db:
+    image: redis:alpine
+    restart: always
+    pids_limit: 10000

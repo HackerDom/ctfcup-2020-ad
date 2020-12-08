@@ -1,0 +1,3 @@
+- hosts: qexecute
+  roles:
+    - { role: service, service_name: QExecute }

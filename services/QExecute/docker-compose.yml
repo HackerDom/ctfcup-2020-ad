@@ -1,0 +1,43 @@
+version: '3.3'
+services:
+  qexecute:
+    image: qexecute
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+     - "8001:8001"
+    links:
+    - "storage:storage"
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - my-network-name
+  
+  storage:
+    build:
+      context: .
+      dockerfile: Dockerfile2
+    ports:
+     - "8000:8000"
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - my-network-name
+    
+  nginx: 
+    image: nginx:latest
+    links:
+    - "storage:storage"
+    - "qexecute:qexecute"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    ports:
+      - "9000:9000"
+    networks:
+      - my-network-name
+   
+networks:
+  my-network-name:

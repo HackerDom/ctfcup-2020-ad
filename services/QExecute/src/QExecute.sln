@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfHostedKestrelServer", "SelfHostedKestrelServer\SelfHostedKestrelServer.csproj", "{52E6655B-6E7E-4015-BB10-9BD8988569D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QExecute.ExecutionService", "QExecute.ExecutionService\QExecute.ExecutionService.csproj", "{ECB7CE7C-C15F-4DEC-B29B-BAFEB8224F6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QExecute.VictimsQueue", "QExecute.VictimsQueue\QExecute.VictimsQueue.csproj", "{F3582B7B-44FF-4A67-9054-D3B69CEEBCE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QExecute.CoreLibrary", "QExecute.CoreLibrary\QExecute.CoreLibrary.csproj", "{4E9B674C-9C6E-49A2-8428-06B95CAD4969}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52E6655B-6E7E-4015-BB10-9BD8988569D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52E6655B-6E7E-4015-BB10-9BD8988569D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52E6655B-6E7E-4015-BB10-9BD8988569D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52E6655B-6E7E-4015-BB10-9BD8988569D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECB7CE7C-C15F-4DEC-B29B-BAFEB8224F6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECB7CE7C-C15F-4DEC-B29B-BAFEB8224F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECB7CE7C-C15F-4DEC-B29B-BAFEB8224F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECB7CE7C-C15F-4DEC-B29B-BAFEB8224F6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3582B7B-44FF-4A67-9054-D3B69CEEBCE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3582B7B-44FF-4A67-9054-D3B69CEEBCE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3582B7B-44FF-4A67-9054-D3B69CEEBCE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3582B7B-44FF-4A67-9054-D3B69CEEBCE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E9B674C-9C6E-49A2-8428-06B95CAD4969}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E9B674C-9C6E-49A2-8428-06B95CAD4969}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E9B674C-9C6E-49A2-8428-06B95CAD4969}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E9B674C-9C6E-49A2-8428-06B95CAD4969}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

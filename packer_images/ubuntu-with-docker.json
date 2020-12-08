@@ -1,0 +1,28 @@
+{
+  "builders": [
+    {
+      "type":      "yandex",
+      "zone":      "ru-central1-a",
+
+      "image_name":        "ubuntu-with-docker-{{isotime | clean_resource_name}}",
+      "image_family":      "ubuntu-with-docker",
+      "image_description": "Updated system with docker, docker-compose and minimal set of utils",
+
+      "source_image_family": "ubuntu-1804-lts",
+      "subnet_id":           "e9b8lfbfakbgk6sj2qkb",
+      "use_ipv4_nat":        true,
+      "disk_type":           "network-ssd",
+      "ssh_username":        "ubuntu"
+    }
+  ],
+  "provisioners": [
+    {
+      "type": "shell",
+      "inline": [
+        "sudo apt-get update -y",
+        "sudo apt-get upgrade -y || (sleep 10 && sudo apt-get upgrade -y)",
+        "sudo apt-get install -y docker.io docker-compose htop mc tmux rsync git vim"
+      ]
+    }
+  ]
+}
