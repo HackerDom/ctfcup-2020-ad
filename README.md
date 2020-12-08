@@ -4,9 +4,9 @@ The contest is driven by classic rules (Attack-Defense [CTF](https://en.wikipedi
   
 ### Team
 Infrastucture admin: [@xelez](https://github.com/xelez)  
-Cubic service: [@1MiKHalyCH1](https://github.com/1MiKHalyCH1)  
-QExecute service: [@capitanbanana](https://github.com/capitanbanana)  
-Team lead & cubic service: [@rx00](https://github.com/rx00)  
+"Cubic" service: [@1MiKHalyCH1](https://github.com/1MiKHalyCH1)  
+"QExecute" service: [@capitanbanana](https://github.com/capitanbanana)  
+Team lead & "ChessBase" service: [@rx00](https://github.com/rx00)  
   
 CTF Cup 2020 (A/D part) was held on December 5, 2020.  
 Copyright (C) 2020 [HackerDom](http://hackerdom.ru)
